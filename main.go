@@ -11,7 +11,7 @@ import (
 	"web_app/setting"
 )
 
-// @title TechForum
+// @title web_app
 // @version 1.0
 // @description TechForum测试
 // @termsOfService http://swagger.io/terms/
@@ -24,7 +24,7 @@ import (
 // @license.url http://www.apache.org/licenses/LICENSE-2.0.html
 //
 // @host 127.0.0.1:8081
-// @BasePath /api/v1/
+// @BasePath /api/v1/1
 func main() {
 	//if len(os.Args) < 2 {
 	//	fmt.Println("need config file.eg: bluebell config.yaml")
