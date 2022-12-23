@@ -1,0 +1,245 @@
+{"level":"INFO","time":"2022-12-21T12:24:05.592+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T12:24:05.619+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T12:28:37.243+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T12:28:37.267+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T12:49:03.183+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T12:49:03.208+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:19:47.927+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:19:47.966+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:28:06.419+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:28:06.441+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:30:19.822+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:30:19.850+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:30:19.856+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:32:02.387+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:32:02.417+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:32:02.422+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:32:02.423+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T13:33:48.955+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:33:48.970+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:33:48.974+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:33:48.974+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T13:44:49.069+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:44:49.094+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:44:49.099+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:44:49.099+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T13:45:25.036+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T13:45:25.036+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0120967}
+{"level":"INFO","time":"2022-12-21T13:45:34.667+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0178011}
+{"level":"ERROR","time":"2022-12-21T13:47:51.243+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2022-12-21T13:47:51.244+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0004772}
+{"level":"ERROR","time":"2022-12-21T13:48:03.292+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-12-21T13:48:03.293+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0012982}
+{"level":"INFO","time":"2022-12-21T13:48:57.882+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:48:57.904+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:48:57.909+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:48:57.909+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T13:49:01.221+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-12-21T13:49:01.222+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0014068}
+{"level":"ERROR","time":"2022-12-21T13:49:03.413+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-12-21T13:49:03.413+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0003447}
+{"level":"INFO","time":"2022-12-21T13:50:34.720+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:50:34.743+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:50:34.748+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:50:34.749+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T13:50:34.773+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-12-21T13:50:34.773+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.000491}
+{"level":"ERROR","time":"2022-12-21T13:51:31.009+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-12-21T13:51:31.038+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0290873}
+{"level":"ERROR","time":"2022-12-21T13:55:14.321+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T13:55:14.321+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0011673}
+{"level":"INFO","time":"2022-12-21T13:56:04.644+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T13:56:04.667+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T13:56:04.671+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T13:56:04.672+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T13:59:02.267+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T13:59:02.268+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0007569}
+{"level":"INFO","time":"2022-12-21T14:03:32.882+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T14:03:32.905+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T14:03:32.914+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T14:03:32.914+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T14:03:36.845+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.confirm_password' Error:Field validation for 'confirm_password' failed on the 'eqfield' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T14:03:36.846+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.29.2","errors":"","cost":0.0015012}
+{"level":"ERROR","time":"2022-12-21T14:20:36.434+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.confirm_password' Error:Field validation for 'confirm_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T14:20:36.435+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.30.0","errors":"","cost":0.0010513}
+{"level":"INFO","time":"2022-12-21T14:33:12.843+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"GET","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-21T14:33:27.781+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T14:33:27.813+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T14:33:27.819+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T14:33:27.819+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T14:33:34.069+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"GET","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"ERROR","time":"2022-12-21T14:33:37.602+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.confirm_password' Error:Field validation for 'confirm_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T14:33:37.603+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.30.0","errors":"","cost":0.0008642}
+{"level":"ERROR","time":"2022-12-21T14:34:13.295+0800","caller":"controller/user.go:22","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.confirm_password' Error:Field validation for 'confirm_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-12-21T14:34:13.296+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0013474}
+{"level":"INFO","time":"2022-12-21T14:59:30.269+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T14:59:30.293+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T14:59:30.298+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T14:59:30.298+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T15:04:37.144+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T15:04:37.167+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T15:04:37.170+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T15:04:37.171+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"ERROR","time":"2022-12-21T15:07:59.004+0800","caller":"controller/user.go:64","msg":"logic.Login failed","username":"root","error":"用户名或密码错误"}
+{"level":"INFO","time":"2022-12-21T15:07:59.005+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.003344}
+{"level":"ERROR","time":"2022-12-21T15:09:25.377+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T15:09:25.377+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0021451}
+{"level":"ERROR","time":"2022-12-21T15:09:30.693+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T15:09:30.694+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0020823}
+{"level":"ERROR","time":"2022-12-21T15:09:32.598+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T15:09:32.598+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0012737}
+{"level":"ERROR","time":"2022-12-21T15:09:33.527+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T15:09:33.527+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0018719}
+{"level":"ERROR","time":"2022-12-21T15:09:38.900+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2022-12-21T15:09:38.900+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0013854}
+{"level":"INFO","time":"2022-12-21T15:09:49.128+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0100747}
+{"level":"ERROR","time":"2022-12-21T15:09:59.418+0800","caller":"controller/user.go:64","msg":"logic.Login failed","username":"redis","error":"key is of invalid type"}
+{"level":"INFO","time":"2022-12-21T15:09:59.418+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0014816}
+{"level":"ERROR","time":"2022-12-21T15:12:31.974+0800","caller":"controller/user.go:64","msg":"logic.Login failed","username":"redis","error":"key is of invalid type"}
+{"level":"INFO","time":"2022-12-21T15:12:31.974+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0015001}
+{"level":"ERROR","time":"2022-12-21T15:12:50.576+0800","caller":"controller/user.go:64","msg":"logic.Login failed","username":"aaa","error":"用户不存在"}
+{"level":"INFO","time":"2022-12-21T15:12:50.576+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0007068}
+{"level":"INFO","time":"2022-12-21T15:12:58.146+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0092669}
+{"level":"ERROR","time":"2022-12-21T15:13:09.863+0800","caller":"controller/user.go:64","msg":"logic.Login failed","username":"aaa","error":"key is of invalid type"}
+{"level":"INFO","time":"2022-12-21T15:13:09.863+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0016662}
+{"level":"INFO","time":"2022-12-21T15:14:57.692+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T15:14:57.712+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T15:14:57.715+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T15:14:57.716+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T15:15:01.535+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0048159}
+{"level":"INFO","time":"2022-12-21T15:17:23.021+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0014082}
+{"level":"INFO","time":"2022-12-21T15:17:28.001+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001748}
+{"level":"INFO","time":"2022-12-21T15:44:11.622+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T15:44:11.643+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T15:44:11.646+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T15:44:11.646+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T16:14:17.388+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T16:14:17.406+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T16:14:17.410+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T16:14:17.410+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T16:14:30.108+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0050622}
+{"level":"INFO","time":"2022-12-21T16:28:17.767+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T16:28:17.792+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T16:28:17.798+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T16:28:17.799+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T16:34:33.069+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T16:34:33.094+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T16:34:33.099+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T16:34:33.099+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T16:40:08.173+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T16:40:08.198+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T16:40:08.202+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T16:40:08.203+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T16:44:50.773+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T16:44:50.798+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T16:44:50.804+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T16:44:50.804+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T17:41:39.057+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T17:41:39.082+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T17:41:39.088+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T17:41:39.089+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T17:42:01.358+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-21T17:42:45.526+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-21T17:42:48.532+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0037084}
+{"level":"INFO","time":"2022-12-21T17:42:58.218+0800","caller":"logger/logger.go:78","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0045794}
+{"level":"INFO","time":"2022-12-21T17:43:37.603+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0015601}
+{"level":"INFO","time":"2022-12-21T21:25:46.541+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T21:25:46.565+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T21:25:46.567+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T21:25:46.567+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T22:21:06.123+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T22:21:06.143+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T22:21:06.145+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T22:21:06.145+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T22:43:01.615+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T22:43:01.644+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T22:43:01.647+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T22:43:01.647+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T22:50:38.234+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T22:50:38.255+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T22:50:38.259+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T22:50:38.259+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T23:18:54.441+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T23:18:54.464+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T23:18:54.467+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T23:18:54.468+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T23:32:10.176+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T23:32:10.203+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T23:32:10.208+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T23:32:10.208+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T23:38:50.369+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T23:38:50.387+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T23:38:50.391+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T23:38:50.391+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-21T23:47:03.676+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-21T23:47:03.703+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-21T23:47:03.706+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-21T23:47:03.707+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-22T10:42:09.402+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-22T10:42:09.421+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-22T11:11:06.212+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-22T11:11:06.235+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-22T11:20:07.763+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-22T11:20:07.780+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-22T11:20:07.784+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-22T11:20:07.784+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-22T11:20:35.096+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-22T11:20:35.116+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-22T11:20:35.118+0800","caller":"redis/redis.go:34","msg":"init redis success"}
+{"level":"INFO","time":"2022-12-22T11:20:35.118+0800","caller":"snowflake/snowflake.go:20","msg":"init snowflake success"}
+{"level":"INFO","time":"2022-12-22T11:21:14.347+0800","caller":"logger/logger.go:78","msg":"/index.html","status":200,"method":"GET","path":"/index.html","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0001788}
+{"level":"INFO","time":"2022-12-22T11:21:14.572+0800","caller":"logger/logger.go:78","msg":"/favicon.ico","status":200,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:22:16.367+0800","caller":"logger/logger.go:78","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.001067}
+{"level":"INFO","time":"2022-12-22T11:22:16.538+0800","caller":"logger/logger.go:78","msg":"/static/css/app.0afe9dae.css","status":200,"method":"GET","path":"/static/css/app.0afe9dae.css","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.1186591}
+{"level":"INFO","time":"2022-12-22T11:22:16.538+0800","caller":"logger/logger.go:78","msg":"/static/js/app.9f3efa6d.js","status":200,"method":"GET","path":"/static/js/app.9f3efa6d.js","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.1180945}
+{"level":"INFO","time":"2022-12-22T11:22:16.538+0800","caller":"logger/logger.go:78","msg":"/static/js/chunk-vendors.57f9e9d6.js","status":200,"method":"GET","path":"/static/js/chunk-vendors.57f9e9d6.js","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.117784}
+{"level":"INFO","time":"2022-12-22T11:22:16.563+0800","caller":"logger/logger.go:78","msg":"/static/img/logo.da56125f.png","status":200,"method":"GET","path":"/static/img/logo.da56125f.png","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0005509}
+{"level":"INFO","time":"2022-12-22T11:22:16.564+0800","caller":"logger/logger.go:78","msg":"/static/img/search.8e85063d.png","status":200,"method":"GET","path":"/static/img/search.8e85063d.png","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0010985}
+{"level":"INFO","time":"2022-12-22T11:22:16.564+0800","caller":"logger/logger.go:78","msg":"/static/img/avatar.7b0a9835.png","status":200,"method":"GET","path":"/static/img/avatar.7b0a9835.png","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0005476}
+{"level":"WARN","time":"2022-12-22T11:22:16.600+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:22:16.601+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.001073}
+{"level":"INFO","time":"2022-12-22T11:22:16.681+0800","caller":"logger/logger.go:78","msg":"/static/favicon.ico","status":200,"method":"GET","path":"/static/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.002372}
+{"level":"WARN","time":"2022-12-22T11:22:21.584+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:22:21.584+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=score","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.001647}
+{"level":"ERROR","time":"2022-12-22T11:22:40.101+0800","caller":"controller/user.go:67","msg":"logic.Login failed","username":"季潮悦","error":"用户不存在"}
+{"level":"INFO","time":"2022-12-22T11:22:40.101+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.025518}
+{"level":"ERROR","time":"2022-12-22T11:22:41.701+0800","caller":"controller/user.go:67","msg":"logic.Login failed","username":"季潮悦","error":"用户不存在"}
+{"level":"INFO","time":"2022-12-22T11:22:41.701+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0006951}
+{"level":"ERROR","time":"2022-12-22T11:22:41.885+0800","caller":"controller/user.go:67","msg":"logic.Login failed","username":"季潮悦","error":"用户不存在"}
+{"level":"INFO","time":"2022-12-22T11:22:41.885+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0012404}
+{"level":"INFO","time":"2022-12-22T11:22:54.212+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0184677}
+{"level":"INFO","time":"2022-12-22T11:23:02.491+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0011223}
+{"level":"WARN","time":"2022-12-22T11:23:02.524+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:23:02.524+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0021475}
+{"level":"INFO","time":"2022-12-22T11:23:10.786+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0076117}
+{"level":"INFO","time":"2022-12-22T11:23:21.867+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:25.667+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:25.819+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:26.002+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:26.211+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:26.413+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:30.291+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:30.618+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:30.843+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:31.018+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:31.202+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:31.370+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:34.354+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:34.581+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-22T11:23:34.737+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"WARN","time":"2022-12-22T11:23:36.134+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:23:36.135+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.001132}
+{"level":"WARN","time":"2022-12-22T11:26:13.004+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:26:13.005+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=score","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0017817}
+{"level":"WARN","time":"2022-12-22T11:26:13.787+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:26:13.788+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0007527}
+{"level":"INFO","time":"2022-12-22T11:26:15.300+0800","caller":"logger/logger.go:78","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0012092}
+{"level":"INFO","time":"2022-12-22T11:26:17.321+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0}
+{"level":"WARN","time":"2022-12-22T11:26:20.781+0800","caller":"logic/post.go:102","msg":"redis.GetPostIDsInOrder(p) return 0 data"}
+{"level":"INFO","time":"2022-12-22T11:26:20.782+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54","errors":"","cost":0.0012611}
+{"level":"INFO","time":"2022-12-22T13:03:33.302+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-22T13:03:33.346+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-23T10:05:29.063+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-23T10:05:29.086+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
+{"level":"INFO","time":"2022-12-23T10:49:44.832+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2022-12-23T10:49:44.850+0800","caller":"mysql/mysql.go:24","msg":"init mysql success"}
